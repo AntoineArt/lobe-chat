@@ -55,12 +55,12 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
 	pin_list: false,
 
 	language_model_settings: true,
-	provider_settings: false,
+	provider_settings: true,
 
-	openai_api_key: false,
-	openai_proxy_url: false,
+	openai_api_key: true,
+	openai_proxy_url: true,
 
-	api_key_manage: false,
+	api_key_manage: true,
 
 	create_session: false,
 	edit_agent: false,
