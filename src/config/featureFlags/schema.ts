@@ -62,27 +62,27 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
 
 	api_key_manage: true,
 
-	create_session: false,
-	edit_agent: false,
+	create_session: true,
+	edit_agent: true,
 
-	plugins: false,
-	dalle: false,
-	ai_image: false,
+	plugins: true,
+	dalle: true,
+	ai_image: true,
 
-	check_updates: false,
-	welcome_suggest: false,
-	token_counter: false,
+	check_updates: true,
+	welcome_suggest: true,
+	token_counter: true,
 
-	knowledge_base: false,
-	rag_eval: false,
+	knowledge_base: true,
+	rag_eval: true,
 
-	clerk_sign_up: false,
+	clerk_sign_up: true,
 
-	cloud_promotion: false,
+	cloud_promotion: true,
 
-	market: false,
-	speech_to_text: false,
-	changelog: false,
+	market: true,
+	speech_to_text: true,
+	changelog: true,
 
 	// the flags below can only be used with commercial license
 	// if you want to use it in the commercial usage
